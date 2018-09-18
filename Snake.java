@@ -1,5 +1,5 @@
-
-import javax.swing.*;
+import java.awt.*;
+import java.swing.*;
 
 public class Main{
 	
@@ -11,10 +11,10 @@ public class Main{
 		
 		frame.add(snakeboard);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setTitle("JAVASNAKEGAME");
+		frame.settitle("JAVASNAKEGAME");
 		frame.pack();
-		frame.setVisible(true);
-		frame.setLocationRelativeTo(null);
+		frame.setvisible(true);
+		
 		
 		
 	}
